@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { getNotice } from '/lib/notices'
+import { getNotice } from '@/lib/notices'
 
 // products/[id]/page.tsx와 동일한 동적 라우팅 패턴입니다.
 type Props = { params: Promise<{ id: string }> }
