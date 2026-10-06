@@ -31,6 +31,12 @@ export default function Home() {
         >
           /about 페이지로 이동 (파일 기반 라우팅 확인) →
         </Link>
+        <Link
+          href="/products"
+          className="mt-2 text-sm font-medium text-blue-600 underline underline-offset-4 dark:text-blue-400"
+        >
+          /products 페이지로 이동 (선호목록 확인) →
+        </Link>
       </main>
     </div>
   )
